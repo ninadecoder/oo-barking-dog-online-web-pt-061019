@@ -1,11 +1,11 @@
 class Dog
   
-  def name= (dogs_name)
-     @dogs_name = actual_dog_name
+  def name= (actual_dog_name)
+     @fakedogs_name = actual_dog_name
   end
   
   def name
-    @dogs_name
+     @fakedogs_name
   end
 
   def bark
